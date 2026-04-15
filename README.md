@@ -1,7 +1,23 @@
 # Blockbuster Box Office Revenue Predictor 🎬
 
 ## Overview
-This repository contains a high-scale machine learning pipeline designed to forecast the first-week US and Canadian theatrical revenue for major blockbuster motion pictures. By modeling historical performance data, the project accounts for franchise momentum, star bankability, and macroeconomic factors, culminating in a specific revenue prediction for the upcoming *Avatar: Fire and Ash* (Avatar 3).
+This folder contains the files for my Movie Revenue Prediction Project. It has the:
+
+* Fact table creation file
+* Feature engineering file
+* Modeling and prediction file
+
+The datasets used in this project are available in the following link (It also contains the code used for extracting the datasets):
+
+https://drive.google.com/drive/folders/1svwQNAyIHUnYaGMEYpYiZ3YB_Djez6pH
+
+The **fact table** csv file couldn't be uploaded here due to upload constraints because of file size. However, it is available in the link above (Along with dimension table and other files).
+Each codebook has a codebook overview section in the beginning which will help you go through it
+
+## My Prediction for Avatar: Fire and Ash
+**$183,674,720**
+
+Project explained in details below.
 
 ## Data Sources
 The dataset covers the modern box office ecosystem (2009–2025), specifically isolating the era defined by the rise of Digital 3D Cinema and the structural disruptions of the streaming era. Data was aggregated and web-scraped from multiple financial and film databases:
